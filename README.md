@@ -4,8 +4,9 @@
 
 Este projeto tem o objetivo de recriar um assistente conversacional que analisa planilhas e possui a capacidade de responder questões especificas sobre os dados e gerar gráficos.
 
-![Aplicação]()
-![Gráfico]()
+![Aplicação](https://github.com/MoisesArruda/PandasAI/blob/main/images/aplica%C3%A7%C3%A3o.png)
+
+![Gráfico](https://github.com/MoisesArruda/PandasAI/blob/main/images/Gr%C3%A1fico.png)
 
 # Instalação
 
@@ -39,7 +40,7 @@ EMBEDDING_DEPLOYMENT_NAME="YOUR_EMBEDDING_DEPLOYMENT_NAME"
 
 6. Rode sua aplicação Streamlit:
 ```bash
- streamlit run main.py
+ streamlit run app/frontEnd.py
 ```
 
 7. Abra seu navegador de preferência e vá até http://localhost:8501 para acessar a aplicação.
@@ -47,9 +48,8 @@ EMBEDDING_DEPLOYMENT_NAME="YOUR_EMBEDDING_DEPLOYMENT_NAME"
 
 # Como utilizar
 
-1. Carregue uma imagem clicando no botão de upload.
-2. A imagem será carregada.
-3. Faça uma pergunta sobre a imagem na caixa de texto.
+1. A planilha será carregada.
+3. Faça uma pergunta sobre a planilha na caixa de texto.
 4. O agente conversacional de IA irá gerar uma resposta ccom base na pergunta e na imagem.
 5. A resposta irá aparecer.
 
@@ -61,5 +61,5 @@ A interface interativa é desenvolvida com a biblioteca Streamlit. Consulte a [d
 
 O agente de IA conversacional e as ferramentas são gerenciados pela biblioteca LangChain. Confira o [repositório do LangChain no Github](https://github.com/langchain-ai/langchain) para obter mais informações.
 
-A biblioteca transformers é empregada para inferir recursos de IA. Visite [esta](https://huggingface.co/Salesforce/blip-image-captioning-large) e [esta](https://huggingface.co/facebook/detr-resnet-50) página no [HuggingFace](https://huggingface.co/) para obter descrições detalhadas dos modelos utilizados.
+A biblioteca PandasAI é empregada para inferir recursos de IA. Visite [PandasAI](https://docs.pandas-ai.com/en/latest/) para obter descrições detalhadas.
 
